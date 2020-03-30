@@ -1,7 +1,7 @@
 #!/bin/bash
 ########################################
 readonly SCRIPT_NAME='xxTunnelGuy'
-readonly SCRIPT_VERSION='1.8'
+readonly SCRIPT_VERSION='1.9'
 readonly SCRIPT_AUTHOR='thereisnotime'
 ########################################
 # TODO:
@@ -99,7 +99,7 @@ function new_line () {
 
 function generate_password () {
     local passLength=${1:-19}
-    local result=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9=;:<>./?!@#$%^&(){}[' | fold -w $passLength | head -n 1)
+    local result=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9=;<>./?!@#$%^&(){}[' | fold -w $passLength | head -n 1)
     echo $result
 }
 
@@ -180,7 +180,7 @@ function menu_change_password () {
                 local accountPassword=$(generate_password 22)
                 local salt=$(generate_password 12)
                 sudo usermod -p $(openssl passwd -1 -salt $salt $accountPassword) tunnelconnector
-                log_message "Password for account tunnelconnector has been changed to $accountPassword" "SUCCESS"
+                log_message 'Password for account tunnelconnector has been changed to '"$accountPassword"'' "SUCCESS"
                 if [ "$SAVE_PASS" = true ] ; then 
                     TSPASS=$accountPassword
                     local scriptLocation="$(get_script_location)"
