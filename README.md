@@ -11,10 +11,10 @@ A simple script to help you with SSH tunneling. The main goal is to have minimal
 - Generate host and client persistance scripts for different OS
 
 ### Screenshots ###
-![Screenshot1](/Screenshots/Screenshot_1.jpg?raw=true "Main menu.")
-![Screenshot2](/Screenshots/Screenshot_2.jpg?raw=true "Generate client command.")
-![Screenshot3](/Screenshots/Screenshot_3.jpg?raw=true "Generate host command.")
-![Screenshot4](/Screenshots/Screenshot_4.jpg?raw=true "Help menu.")
+![Screenshot1](/Screenshots/Screenshot_1.png?raw=true "Main menu.")
+![Screenshot2](/Screenshots/Screenshot_2.png?raw=true "Generate client command.")
+![Screenshot3](/Screenshots/Screenshot_3.png?raw=true "Generate host command.")
+![Screenshot4](/Screenshots/Screenshot_4.png?raw=true "Help menu.")
 
 ### Installation ###
 Todo
