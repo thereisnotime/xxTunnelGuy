@@ -12,9 +12,9 @@ A simple script to help you with SSH tunneling. The main goal is to have minimal
 
 ### Screenshots ###
 ![Screenshot1](/Screenshots/Screenshot_1.jpg?raw=true "Main menu.")
-![Screenshot1](/Screenshots/Screenshot_2.jpg?raw=true "Generate client command.")
-![Screenshot1](/Screenshots/Screenshot_3.jpg?raw=true "Generate host command.")
-![Screenshot1](/Screenshots/Screenshot_4.jpg?raw=true "Help menu.")
+![Screenshot2](/Screenshots/Screenshot_2.jpg?raw=true "Generate client command.")
+![Screenshot3](/Screenshots/Screenshot_3.jpg?raw=true "Generate host command.")
+![Screenshot4](/Screenshots/Screenshot_4.jpg?raw=true "Help menu.")
 
 ### Installation ###
 Todo
